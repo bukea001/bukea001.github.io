@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html style="background:black">
+<head>
+<title>Utforsk Kairo</title>
+
+<style> 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:white
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>Utforsk verden</h1>
+</div>
+
+
+
+<table style="width:100%;background:#1F2F7F">
+  <tr style="display:block;padding:0 10px">
+    <th><button type="button" class="button">Land</button></th>
+    <th><button type="button" class="button">Byer</button></th>
+    <th><button type="button" class="button">Bestill biletter</button></th>
+    <th><button type="button" class="button">Vanlige spørsmål</button></th>
+    <th><button type="button" class="button">Kontakt oss</button></th>
+    <th style="color:white;font-size:10px;padding:10px">Laget av Kelly og Bünyamin</th>
+  </tr>
+ </table>
+ 
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://media.istockphoto.com/photos/mosque-and-pyramids-picture-id1174818077?k=6&m=1174818077&s=612x612&w=0&h=TjJrfjdp8c8tsMbFhVY9C4vdtesW7828zA0gskFYBdQ=" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://digimarconnorthafrica.com/wp-content/uploads/2020/09/image-cairo.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/468b409b71c120bacfe4416f272cff166c4eadd5/big-173759f14285b3f970a963464a88cd82.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+ 
+<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+</style>
+ 
+<h2 style="padding:5px 10px;text-align:center">Besøk Kairo</h2>
+<p style="padding:0 10px;text-align:center;">Du kan nesten ikke gå et skritt i denne byen uten å komme over arkeologiske skatter. Kairo som kalles "Byen med de tusen minareter" huser ikke bare vakre ottomanske moskeer, men har også en blanding av moderne og tradisjonell kultur. Her er noen av de tingene du absolutt bør få med deg.</p>
+  
+  
+ 
+
+  
+<style>
+
+.header {
+  padding: 10px;
+  text-align: left;
+  color: black;
+  font-size:15px;
+  background: white;
+}
+
+.button {
+  background: #1F2F7F;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-weight: bold;
+}
+
+</style>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
